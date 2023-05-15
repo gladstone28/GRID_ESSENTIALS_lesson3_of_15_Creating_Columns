@@ -46,14 +46,31 @@ We can also mix and match these two units. In the example below, there are three
   grid-template-columns: 20px 40% 60px;
 }
 
-
 ```
 # Instructions
 
+![](./screen_shot.jpg)
 
 Notice that in this example, the total width of our columns (120 pixels) exceeds the width of the grid (100 pixels). This might make our grid cover other elements on the page! In a later exercise, we will discuss how to avoid overflow.
 
 In style.css, inside the .grid ruleset, use the grid-template-columns property to create three columns. Set the first column to be 100px wide, the second to be 50% of the grid, and the third to be 200px wide.
+```
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+```
+
 
 ### HINT
 
