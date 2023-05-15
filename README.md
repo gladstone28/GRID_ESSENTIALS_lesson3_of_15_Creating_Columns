@@ -76,3 +76,10 @@ In style.css, inside the .grid ruleset, use the grid-template-columns property t
 
 You should have 3 values after grid-template-columns, each separated by a space.
 
+###### NG:memory aid
+/c/Users/glads/Documents/PROJECTS_AT_CODECADEMY/GRID_ESSENTIALS/lesson3_of_15_Creating_Columns
+
+
+
+
+
